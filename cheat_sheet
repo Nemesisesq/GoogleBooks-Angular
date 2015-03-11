@@ -1,0 +1,46 @@
+Cheat Sheet
+
+Google books documentation: https://developers.google.com/books/docs/v1/getting_started
+
+jQuery Selectors:
+	#id = #greeting, 
+	.class = .row, 
+	tag = div,
+	[attribute] = [data-genre] OR [data-genre='mystery']
+
+jQuery Dom manipulating functions
+	child objects   - append, appendTo, prepend, prependTo
+	sibling objects - before, after
+
+
+Ways to call a service through ajax: 
+
+1. Ajax with object that has data, url, and success callback
+
+$.ajax(
+	{
+		data: {},
+		url: "",
+		success: callback
+	});
+
+example:
+
+$.ajax(
+{
+	url: "http://www.google.com",
+	data: { searchText: "hello world" },
+	success: function(data){
+		console.log(data);
+	}
+})
+
+2. getJson with url, data, callback
+
+$.getJSON(url, data, callback);
+
+example: 
+$.getJSON("http://www.google.com", {searchText: "hello world"}, function(data){
+	console.log(data);
+})
+
