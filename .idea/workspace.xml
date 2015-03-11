@@ -2,36 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85b1c795-4976-4200-bd7e-f33bec5c3f6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/background.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/cancel-off-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/cancel-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/cancel-on-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/cancel-on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/coffee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/face-a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/face-b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/face-c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/face-d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/face-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/medal-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/medal-on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/star-half-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/star-half.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/star-off-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/star-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/star-on-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/img/star-on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery.raty-1.4.3/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery.raty-1.4.3/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery.raty-1.4.3/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery.raty-1.4.3/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.raty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.raty.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery.raty-1.4.3/who.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/GoogleBooks.html" afterPath="$PROJECT_DIR$/src/html/GoogleBooks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GoogleBooks.js" afterPath="$PROJECT_DIR$/src/GoogleBooks.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GoogleBooks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jquery.raty-1.4.3/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jquery.raty-1.4.3/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jquery.raty-1.4.3/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jquery.raty-1.4.3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.raty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.raty.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jquery.raty-1.4.3/who.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/GoogleBooksSpec.js" afterPath="$PROJECT_DIR$/spec/GoogleBooksSpec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="googleBooks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,21 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleBooks.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GoogleBooks.js">
+      <file leaf-file-name="GoogleBooksSpec.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/GoogleBooksSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8253095" vertical-offset="420" max-vertical-offset="1170">
-              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.66024756" vertical-offset="0" max-vertical-offset="727">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -95,6 +66,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/html/GoogleBooks.html" />
         <option value="$PROJECT_DIR$/src/GoogleBooks.js" />
+        <option value="$PROJECT_DIR$/spec/GoogleBooksSpec.js" />
       </list>
     </option>
   </component>
@@ -144,38 +116,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="googleBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="googleBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="googleBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="googleBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="googleBooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery.raty-1.4.3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,18 +301,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/GoogleBooks.js</url>
-          <line>37</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/GoogleBooks.js</url>
-          <line>15</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -389,22 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/GoogleBooks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="964" max-vertical-offset="1695">
@@ -413,42 +325,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/GoogleBooks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="966" max-vertical-offset="1695">
           <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1215">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -476,26 +356,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/jquery-2.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06787331" vertical-offset="0" max-vertical-offset="442">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/GoogleBooksSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7624434" vertical-offset="128" max-vertical-offset="570">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -507,9 +372,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jquery.raty-1.4.3/js/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -523,18 +388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/spec/GoogleBooksSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoogleBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8253095" vertical-offset="420" max-vertical-offset="1170">
-          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.66024756" vertical-offset="0" max-vertical-offset="727">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
           <folding />
         </state>
       </provider>

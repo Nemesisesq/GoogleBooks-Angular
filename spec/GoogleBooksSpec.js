@@ -29,5 +29,5 @@ describe("GoogleBooks", function(){
 			$("#searchButton").trigger("click");
 			expect($("#searchResults").html()).toBe("");
 		});
-	});
+	})
 });
