@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="googleBooks">
 
 <head>
     <link href="../../lib/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../lib/bootstrap.min.css">
-    <script src="angular.js"></script>
+    <link rel="stylesheet" href="./mani.css">
+
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="../../lib/bootstrap.min.js"></script>
+    <script src="./angular.js"></script>
+    <script src="./app.js"></script>
 </head>
 
-<body class="container" ng-app="googleBooks">
-    <div class="from-group">
+<body class="container">
+<div ng-controller="GoogleSearchCtrl as search">
+
+    <div class="form-group">
         <div class="row">
             <h1>Google Books</h1>
         </div>
         <div class="row">
-            <input id="searchText" placeholder="Search" class="form-control"/>
+            <input id="searchText" placeholder="Search" class="form-control" ng-model="searchText"/>
         </div>
         <br>
 
         <div class="row">
-            <button id="searchButton" type="button" class="btn btn-primary">
+            <button id="searchButton" type="button" class="btn btn-primary" ng-click="search()">
                 <i class="fa fa-search"></i> Search
             </button>
         </div>
@@ -28,40 +35,53 @@
         <div class="row">
             <div class="input-group">
               <span class="input-group-btn">
-                    <button class="btn btn-default" id="prevPage" type="button">Prev</button>
+                    <button class="btn btn-default" id="prevPage" type="button" ng-click="changePage(1)">Prev</button>
                 </span>
                 <span class="input-group-btn">
-                    <button class="btn btn-default" id="nextPage" type="button">Next</button>
+                    <button class="btn btn-default" id="nextPage" type="button" ng-click="changePage(-1)">Next</button>
                 </span>
-                <span class="col-xs-2">
-                <input type="text" class="form-control" id="pageNumber" value="1">
+                <span class="col-xs-1">
+                    <label>Page Number</label>
+                <input type="text" class="form-control" id="pageNumber" ng-value="1" ng-model="pageNumber">
+                </span>
+                <span class="col-xs-1">
+                    <label>Max Results</label>
+                    <input type="text" class="form-control" id="maxResults" ng-value="10" ng-model="maxResults">
                 </span>
             </div>
             <!-- /input-group -->
         </div>
         <!-- /.col-lg-6 -->
+
         <div id="searchResults" class="container">
-            <div class='row book ' id='result'>
-                <div class='col-md-6 lead'></div>
-                <div class='col-md-6 pull-right'></div>
-                <div class='col-md-6'></div>
-                <div class='col-md-6 pull-right'></div>
-                <div class='dropdown col-md-12'>
+            <div class='row book' id='result' ng-repeat="book in results" ng-click="hide = hide == true ? false: true">
+                <div class='col-md-6 lead' id="title">{{ book.title }}</div>
+                <div class='col-md-6 pull-right' id="authors">{{ book.authors.join(" ") }}</div>
+                <div class='col-md-6' id="subtitle">{{ book.subtitle }}</div>
+                <div class='col-md-6 pull-right' id="publisher_and_published_date">
+                    {{book.publisher}} ({{book.publishedDate}})
+                </div>
+                <hr class=col-lg-12>
+                <div class='dropdown col-md-12 animate-show' ng-init="hide = true" ng-hide="hide">
                     <div class='col-md-3'>
-                        <img src=/>
+                        <img ng-src="{{book.imageLinks.thumbnail}}" id="book_image"/>
                         <span class='star clearfix rating-static' data-star='  book.averageRating   '></span>
                         <span class='clearfix' id='  resultId  '></span>
                     </div>
-                    <div class='col-md-9'> </div>
+                    <div class='col-md-9' id="description">{{ book.description }}</div>
+                    <div class="row">
+
+                    <div class='col-md-9 pull-right' id="print_type">{{ book.printType }}</div>
+                    <div class='col-md-9 pull-right' id="page_count">{{ book.pageCount }}</div>
+                    <div class='col-md-9 pull-right' id="catagories">{{ book.categories.join(" ") }}</div>
+                    </div>
                 </div>
-                <div class='col-md-9 pull-right'> </div>
-                <div class='col-md-9 pull-right'> </div>
-                <div class='col-md-9 pull-right'> </div>
+                <hr class=col-lg-12>
             </div>
-            <hr class=col-lg-12>
 
         </div>
 
     </div>
+</div>
 </body>
 </html>
